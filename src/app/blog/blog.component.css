@@ -1,0 +1,131 @@
+.box img{
+    width: 1503px;
+    height: 1128px;
+    border: 1px solid black;
+    /* margin-left: -0.4em; */
+}
+.row-1{
+    display: flex;
+    margin-top: -30em;
+    gap: 620px;
+}
+.box-1 {
+    width: 300px;
+    height: 40vh;
+    margin-left: 7em;
+    /* border: 1px solid red; */
+}
+.text{
+    color: aliceblue;
+    font-size: 70px;
+    text-align: center;
+    text-decoration: underline;
+}
+.p-1{
+    margin-top: 0.4em;
+}
+.box-2 {
+    width: 300px;
+    height: 40vh;
+    /* border: 1px solid red; */
+}
+.text-1{
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* box-3 */
+
+.box-3{
+    border: 1px solid black;
+    width: 100%;
+    height: 68vh;
+}
+.row-2{
+    display: flex;
+    margin-left: 18em;
+    margin-top: 8em;
+    gap: 100px;
+}
+.bx-1 img{
+    width: 250px;
+    height: 35vh;
+    border: 1px solid red;
+    border-radius: 11px;
+}
+.text-2{
+    color: black;
+    font-size: 28px;
+    text-align: center;
+
+}
+.p-3{
+    margin-top: 0.3em;
+}
+.bx-2 img{
+    width: 250px;
+    height: 35vh;
+    border: 1px solid red;
+    border-radius: 11px;
+}
+.text-3{
+    color: black;
+    font-size: 28px;
+    text-align: center;
+}
+.p-4{
+    margin-top: 0.3em;
+}
+.bx-3 img{
+    width: 250px;
+    height: 35vh;
+    border: 1px solid red;
+    border-radius: 11px;
+}
+.text-4{
+    color: black;
+    font-size: 28px;
+    text-align: center;
+}
+.p-5{
+    margin-top: 0.3em;
+}
+
+.category-1,
+.category-2 {
+  display: inline-block;
+  width: 50%; /* You can adjust the width as needed */
+  margin: 0%; /* You can adjust the margin as needed */
+  box-sizing: border-box;
+}
+
+.category-1 {
+    width: 50%;
+    height: 55vh;
+    border: 1px solid red;
+    float: left;
+}
+.category-1 img{
+    width: 100%;
+    height: 55vh;
+}
+.category-2{
+    width: 50%;
+    height: 55vh;
+    border: 1px solid red;
+    float: left;
+}
+.category-2{
+    background: rgba(34, 55, 34, 0.50);
+}
+.text-5{
+    font-size: 35px;
+    letter-spacing: 1.4px;
+    margin-left: 1em;
+    margin-top: 0.2em;
+}
+.p-6{
+    font-size: 40px;
+    font-weight:600;
+}

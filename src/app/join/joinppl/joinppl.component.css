@@ -1,0 +1,90 @@
+.box-1 {
+  width: 99.9%;
+  height: 170vh;
+  border: 1px solid red;
+  background: rgba(196, 244, 222, 0.95);
+}
+.box-1 img {
+  margin-left: 10em;
+  width: 80%;
+  border: 1px solid black;
+  margin-top: 2em;
+}
+
+.h3-1 {
+  text-align: center;
+  font-size: 30px;
+  font-family: "poppins";
+  text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+  font-weight: 600;
+}
+.row-1 {
+  display: flex;
+  gap: 225px;
+  margin-left: 9em;
+  margin-top: 1em;
+  font-size: 18px;
+  font-weight: 600;
+}
+.text-3 {
+  text-decoration: underline;
+}
+
+/* category's */
+.category-1,
+.category-2 {
+  display: inline-block;
+  width: 50%; /* You can adjust the width as needed */
+  margin: 0%; /* You can adjust the margin as needed */
+  box-sizing: border-box;
+}
+
+.category-1 {
+  width: 50%;
+  height: 90vh;
+  margin-top: 4em;
+  /* border: 1px solid black; */
+  float: left;
+  background: rgba(196, 244, 222, 0.95);
+}
+
+.category-2 {
+  width: 50%;
+  height: 90vh;
+  margin-top: 4em;
+  /* border: 1px solid red; */
+  float: left;
+  background: rgba(196, 244, 222, 0.95);
+}
+
+.h3-2 {
+  font-size: 34px;
+  font-family: "poppins";
+  text-decoration: underline;
+  margin-left: 2em;
+}
+.p-1 {
+  width: 682px;
+  height: 213px;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 60px; /* 150% */
+  margin-left: 1em;
+}
+.ul-1 li
+{
+    font-size: 20px;
+    margin: 40px;
+    font-weight: 600;
+}
+.a1{
+    font-size: 18px;
+    margin-left: 4em;
+    color: blue;
+}
+
+.category-2 img
+{
+    width: 70%;
+    border: none;
+}

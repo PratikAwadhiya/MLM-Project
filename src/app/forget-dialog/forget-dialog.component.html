@@ -1,0 +1,44 @@
+<form action="">
+    <div class="category-1">
+        <img src="assets/img/ul.png" alt="">
+
+        <div class="content">
+            <h3 class="h3-1">How would you like to reset your password?</h3>
+        </div>
+        
+        <div class="mat-group">
+            <mat-radio-group class="example-radio-group" >
+                <mat-radio-button class="example-radio-button-1"  [value]="value" >{{'Email'}}</mat-radio-button>
+                <mat-radio-button class="example-radio-button-2" (click)="opentext()"    [value]="value" >{{'Text Message(SMS)'}}</mat-radio-button>
+            </mat-radio-group>
+        </div>
+
+        <!-- para-content -->
+        <div class="para-content">
+            <p class="p-1">
+                We will text you a verification code to reset your password. Message and data rates may apply.
+            </p>
+        </div>
+
+        <!-- Email-box-->
+
+        <div class="input-1">
+            <input type="email" placeholder="Enter your Email" class="in-1">
+        </div>
+
+
+        <div class="send">
+            <button mat-raised-button color="primary" type="button" (click)="openreset()"  class="btn-1">Re-set</button>
+        </div>
+
+        <div class="signup">
+            <button mat-raised-button color="warn" type="button" (click)="goBack()" class="btn-2" >Sign up</button>
+        </div>
+
+    </div>   
+
+    <div class="category-2">
+        
+    </div>
+
+</form>

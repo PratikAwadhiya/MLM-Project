@@ -1,0 +1,96 @@
+.box-1
+{
+    width: 99.9%;
+    height: 188vh;
+    border: 1px solid red;
+    background: rgba(196, 244, 222, 0.95);
+}
+.box-1 img{
+    margin-left: 10em;
+    width: 80%;
+    border: 1px solid black;
+    margin-top: 2em;
+}
+
+.h3-1{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'poppins';
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 600;
+}
+.row-1{
+    display: flex;
+    gap: 225px;
+    margin-left: 9em;
+    margin-top: 1em;
+    font-size: 18px;
+    font-weight: 600;
+}
+.text-1{
+    text-decoration: none;
+}
+.text-2{
+    text-decoration: underline;
+}
+
+.downimg img{
+    width: 50%;
+    margin-left: 24em;
+    border: none;
+}
+.p-1
+{
+    font-size: 17px;
+    text-align: center;
+    font-weight: 500;
+}
+.p-2{
+    font-size: 17px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.row-2
+{
+    display: flex;
+    gap:10px;
+    margin-left: 36em;
+    margin-top: 2em;
+}
+
+.btn-2{
+    width: 88%;
+    border-radius: 20px;
+}
+.text-5{
+    transform: translate(-9px, 28px);
+}
+.btn-2 img{
+    width: 20px;
+    transform: translate(-16px, -25px);
+    border: none;
+}
+
+
+.btn-1{
+    width: 88%;
+    border-radius: 20px;
+}
+.btn-1 .button-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* faq-button */
+  .btn-3
+  {
+    width: 20%;
+    margin-left: 38em;
+    margin-top: 2em;
+  }
+  .p-3{
+    text-align: center;
+    font-weight: 500;
+  }

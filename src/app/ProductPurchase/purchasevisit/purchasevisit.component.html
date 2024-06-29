@@ -1,0 +1,150 @@
+<app-navigation></app-navigation>
+
+<div class="category-1">
+    <div class="box-4">
+        <img src="assets/img/a3.png" alt="">
+    </div>
+
+    <div class="buttons-1">
+        <button  class="btn-4">Remove from Cart</button>
+    </div>
+    <div class="buttons-2">
+        <button  class="btn-5">Move to Wishlist</button>
+    </div>
+</div>
+
+<div class="category-2">
+    <div class="info">
+        <p class="p-1">
+            Stylish Golden Necklace Fashionable Round Fisher Gold Plated Necklace Gold-plated Plated Necklace 20carat Gold Necklace
+        </p>
+    </div>
+
+    <div class="special">
+        <div class="price">
+            Rs. 45000
+        </div>
+        <div class="rate">
+            Rs. 56250
+        </div>
+        <div class="off">
+            25% off
+        </div>
+    </div>
+
+    <div class="vip">
+        <div class="sec-price">
+            Rs. 38250 / (15000 crystal + cash)*
+        </div>
+    </div>
+
+<button mat-raised-button color="warn" [matMenuTriggerFor]="menu" class="btn-1">Qty :</button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item>Item 1</button>
+  <button mat-menu-item>Item 2</button>
+  <button mat-menu-item>Item 3</button>
+</mat-menu>
+
+
+<div class="box-1">
+    <div class="bx-1">
+        <div class="img">
+            <img src="assets/img/asterisk.png" alt="" class="img">
+        </div>
+        <div class="h-1">
+            <h4 class="h4-1">Extra10</h4>
+            <p class="p-2">
+                Save another 10000 on this order
+            </p>
+        </div>
+
+        <div class="aply">
+            <h4 class="h4-2">Apply</h4>
+        </div>
+    </div>
+    <div class="bx-2">
+        <img src="assets/img/sbi.png" alt="" class="img-1">
+        <p class="p-3">
+            5% Instant Discount on SBI Credit Cards..
+        </p>
+    </div>
+</div>
+<div class="box-2">
+    <div class="bx-3">
+       <div class="icon">
+        <fa-icon [icon]="faSearchLocation" class="icon-1"></fa-icon>
+       </div>
+       <p class="p-4">
+        Apply More Coupons 
+    </p>
+    </div>
+    <div class="bx-4">
+        <p class="p-5">
+            Bank Offers
+        </p>
+    </div>
+</div>
+
+
+<div class="category-3">
+    <h4 class="h4-3">Deliver to</h4>
+
+    <div class="input">
+        <input type="text" placeholder="Pine no." class="input-1">
+        <button mat-raised-button color="accent" class="btn-3">check</button>
+    </div>
+
+        <div class="terms">
+            <p class="p-12">
+                Delivery by 21 Dec, Thursday
+            </p>
+            <p class="p-13">
+                Free Delivery  <span>T&C* applied</span>
+            </p>
+        </div>
+
+</div>
+
+
+
+<div class="category-4">
+    <h4 class="h4-4">order summary</h4>
+
+        <div class="sub">
+            <h5 class="h5-1">Subtotal</h5>
+            <p class="p-6">Rs. 56250</p>
+        </div>
+
+        <div class="sal">
+            <h5 class="h5-2">Sale Discount</h5>
+            <p class="p-7">Rs. 18000</p>
+        </div>
+
+        <div class="coup">
+            <h5 class="h5-3">Coupons Discount</h5>
+            <p class="p-8">Rs.1500*</p>
+        </div>
+
+        <div class="deli">
+            <h5 class="h5-4">Delivery Charge</h5>
+            <p class="p-9">Free</p>
+        </div>
+
+        <div class="tot">
+            <h5 class="h5-5">TOTAL(incl of all taxes.)</h5>
+            <p class="p-10">Rs. 36750</p>
+        </div>
+
+        <div class="sav">
+            <h5 class="h5-6">You Saved</h5>
+            <p class="p-11">+ Rs 19500</p>
+        </div>
+
+        <div class="btn">
+            <button mat-raised-button color="primary" class="btn-2">Proceed to Checkout</button>
+        </div>
+</div>
+
+</div>
+
+<app-footer></app-footer>

@@ -1,0 +1,84 @@
+form {
+    width: 800px;
+    height: 78vh;
+  }
+  .category-1,
+  .category-2 {
+    display: inline-block;
+    width: 50%;
+    margin: 0%;
+    box-sizing: border-box;
+  }
+  .category-1 {
+    width: 65%;
+    height: 80vh;
+    border: 1px solid red;
+    float: left;
+  }
+  
+  .category-2 {
+    width: 35%;
+    height: 80vh;
+    border: 1px solid green;
+    float: left;
+    background: radial-gradient(
+      187.8% 128.24% at 6.18% 6.61%,
+      rgba(188, 231, 208, 0.69) 42.61%,
+      rgba(153, 191, 252, 0.49) 73.19%
+    );
+  }
+  
+  /* category-1 */
+  .category-1 img {
+    width: 38%;
+    height: 25vh;
+    margin-left: 5.8em;
+  }
+  .h3-1 {
+    font-size: 18px;
+    margin-top: -0.3em;
+    margin-left: 1em;
+  }
+  
+  .example-radio-group {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+    align-items: flex-start;
+  }
+  
+  .example-radio-button-1 {
+    margin: 1px;
+    margin-top: -1em;
+  }
+  .example-radio-button-2 {
+    margin: 1px;
+    margin-top: -0.2em;
+  }
+  .p-1
+  {
+      margin-left: 1em;
+      margin-top: -1em;
+      font-size: 14px;
+  }
+   
+  .container {
+    display: flex;
+    align-items: center;
+    gap: 7px; /* Adjust gap as needed */
+    margin-left: 1em;
+  }
+  
+  .container-2{
+    /* display: flex; */
+    margin-top: 2em;
+    margin-left: 7em;
+  }
+  
+.btn-1{
+  width: 40%;
+}
+.btn-2{
+  width: 40%;
+  margin-top: 1.4em;
+}

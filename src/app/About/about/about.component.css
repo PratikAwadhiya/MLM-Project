@@ -1,0 +1,136 @@
+.row-1
+{
+    display: flex;
+}
+.bx-1{
+    width: 400px;
+    height: 70vh;
+    /* border: 1px solid red ; */
+    float: left;
+}
+
+.h2-1
+{
+    text-decoration: underline;
+    font-family:  'Italianno';
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+    text-underline-offset: 0.3em;
+    text-decoration-thickness: 1.8px;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+}
+li{
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+}
+.a1{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.a1:hover{
+    color: red;
+}
+.a2{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    margin-left: -3em;
+}
+.a2:hover{
+    color: red;
+}
+.a3{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    margin-left: -7.6em;
+}
+.a3:hover{
+    color: red;
+}
+
+.bx-2{
+    width: 700px;
+    height: 70vh;
+    /* border: 1px solid blue ; */
+    float: left;
+}
+
+.h2-2
+{
+    text-decoration: underline;
+    font-family:  'Italianno';
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+    text-underline-offset: 0.3em;
+    text-decoration-thickness: 1.8px;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.img-1{
+    width: 400px;
+    height: 300px;
+    margin-left: 8.3em;
+    opacity: 60%;
+}
+
+
+
+.bx-3
+{
+    width: 480px;
+    height: 70vh;
+    /* border: 1px solid green ; */
+    float: left;
+}
+.h2-3{
+    text-decoration: underline;
+    font-family:  'Italianno';
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+    text-underline-offset: 0.3em;
+    text-decoration-thickness: 1.8px;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+}
+.li-1{
+    font-size: 24px;
+    font-weight: 400;
+  
+}
+.li-2{
+    font-size: 22px;
+    font-weight: 400;
+
+}
+.p1{
+    margin-top: -0.1em;
+    margin-left: -1em;
+}
+.li-3{
+    font-size: 22px;
+    font-weight: 400;
+    margin-left: -3em;
+ 
+}
+.p2{
+    margin-top: -0.1em;
+    margin-left: 2em;
+}
+
+.li-4{
+    list-style: none;
+}
+.a4{
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    font-weight: 400;
+}
+.a4:hover{
+    color: red;
+}

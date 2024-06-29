@@ -1,0 +1,64 @@
+<form action="">
+    <div class="category-1">
+        <img src="assets/img/demo-logo.png" alt="">
+    </div>
+    
+    <div class="category-2">
+        <div class="cross">
+            <a href=""><fa-icon [icon]="faXmark" class="L5"></fa-icon></a>
+        </div>
+
+        <div class="heading">
+            <h3 class="h3-1">New User</h3>
+        </div>
+
+        <!-- input-fields -->
+        <div class="user">
+            <input type="text" placeholder="Username*" class="input-1">
+        </div>
+
+        <div class="email">
+            <input type="email" placeholder="Email*" class="input-2">
+            <button class="btn-1">Verify</button>
+        </div>    
+
+        <div class="mobile">
+            <input type="mobile" placeholder="Mobile*" class="input-3">
+            <button class="btn-2">Verify</button>
+        </div>
+
+        <div class="password">
+            <input type="password" placeholder="password" class="input-4">
+        </div>
+
+        <div class="confirm">
+            <input type="password" placeholder="Confirm Password*" class="input-5">
+        </div>
+
+        <div class="referl">
+            <input type="text" placeholder="Referral(Optional)" class="input-6">
+        </div>
+
+        <div class="sign">
+            <button mat-raised-button color="primary" type="button" class="btn-3">Register</button>
+        </div>
+
+        <div class="google">
+            <button mat-raised-button color="primary" type="button"  class="btn-4">
+                <div class="left-content">
+                    <img src="assets/img/google-logo-png.png" alt="google-icon" width="24" height="24">
+                </div>
+                <div class="content">
+                    Sign in with Google
+                </div>
+            </button>
+        </div>
+
+         <!-- login-link -->
+         <div class="login-link">
+            Already have an account?<a href="" (click)="openlogin($event)" class="a-1"> <span>Login</span></a>
+        </div>
+
+    </div>
+    
+</form>

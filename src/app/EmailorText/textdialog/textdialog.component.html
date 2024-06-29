@@ -1,0 +1,61 @@
+<form action="">
+    <div class="category-1">
+        <img src="assets/img/ul.png" alt="">
+
+        <div class="content">
+            <h3 class="h3-1">How would you like to reset your password?</h3>
+        </div>
+        
+        <div class="mat-group">
+            <mat-radio-group class="example-radio-group" >
+                <mat-radio-button class="example-radio-button-1"  (click)="goback()"  [value]="Email" >{{'Email'}}</mat-radio-button>
+                <mat-radio-button class="example-radio-button-2" [value]="['Text Message(SMS)']" >{{'Text Message(SMS)'}}</mat-radio-button>
+            </mat-radio-group>
+        </div>
+
+        <!-- para-content -->
+        <div class="para-content">
+            <p class="p-1">
+                We will text you a verification code to reset your password. Message and data rates may apply.
+            </p>
+        </div>
+
+
+     <!-- select country -->
+        <!-- select country -->
+        <div class="container">
+            <mat-form-field>
+                <mat-label>Select country</mat-label>
+                <mat-select [(value)]="selectedCountry">
+                    <mat-option *ngFor="let country of countries" [value]="country">
+                        <img [src]="country.flagUrl" alt="{{country.name}} Flag" height="16">
+                        {{country.name}} ({{country.code}} )
+                    </mat-option>
+                </mat-select>
+            </mat-form-field>
+            
+            <mat-form-field>
+                <mat-label>Mobile Number</mat-label>
+                <input matInput type="text" placeholder="Enter mobile number" class="in-1">
+              </mat-form-field>
+        </div>
+        
+     
+        <div class="container-2">
+            <div class="send">
+                <button mat-raised-button color="primary" (click)="opentext()" type="button" class="btn-1">Text-me</button>
+            </div>
+    
+            <div class="signup">
+                <button mat-raised-button color="warn" type="button" (click)="goSignup()"  class="btn-2" >Sign up</button>
+            </div>
+        </div>
+
+    </div>   
+
+    <div class="category-2">
+        
+    </div>
+
+</form>
+
